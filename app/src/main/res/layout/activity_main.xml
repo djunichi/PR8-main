@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image1"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Предыдущее"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Следующее"/>
+
+    <Button
+        android:id="@+id/btnSlideshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Слайд-шоу"/>
+
+    <Button
+        android:id="@+id/btnOpenVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть видео"/>
+
+</LinearLayout>
